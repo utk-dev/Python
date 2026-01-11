@@ -1,3 +1,4 @@
+#Recursion - it is a function which calls itself. Generally used to directly use a mathematical formula as function
 '''
 factorial(0) = 1
 factorial(1) = 1
@@ -19,4 +20,8 @@ def factorial(n):
         return 1
     return n*factorial(n-1)
 
+
 print("The factorial of the number is: ", factorial(n))
+
+''' The programmer needs to be extremely careful while working with recursion to ensure that the function doesn't infinitely keep calling
+itself. Recursion is sometimes the most direct way to code an algorithm'''
