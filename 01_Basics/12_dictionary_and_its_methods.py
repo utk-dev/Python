@@ -5,16 +5,16 @@ marks = {"lavanya":24,
          "Rohit":12,
          "Rajat":19,
          "Vaishnavi":30}
-# print(marks)  #will print a dictionary of names(keys) with their marks(values)
+print(marks)  #will print a dictionary of names(keys) with their marks(values)
 
-# ## METHODS OF DICTIONARY
+## METHODS OF DICTIONARY
 
-# # 1. .items()-returns a list of (key,value) tuples
-# print(marks.items())
+# 1. .items()-returns a list of (key,value) tuples
+print(marks.items())
 
 
-# # 2. .keys()-will print a list of key values only(same applies for values(.values()))
-# print(marks.keys())
+# 2. .keys()-will print a list of key values only(same applies for values(.values()))
+print(marks.keys())
 
 
 # 3. .update()-update the dictionary with the supplied key-values pairs
@@ -23,3 +23,4 @@ print(marks)
 
 # 4. .get(key/value)-returns the value of the specified key
 print(marks.get("Rajat"))
+
