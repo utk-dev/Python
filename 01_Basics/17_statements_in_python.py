@@ -19,3 +19,4 @@ for i in range(1,11):
 for i in range(1,11):
     pass 
 # 'pass' statement just means that if and whenever you are not sure and don't want to write the code and execute it without any error, you use 'pass' statement
+
