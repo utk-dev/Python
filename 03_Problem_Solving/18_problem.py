@@ -1,7 +1,7 @@
-#conversion of temperature from degree to farenhiet
+c = int(input("Enter the temperature in celcius: "))
 
-def f_to_c(f):
-    return 5*(f-32)/9
+def c_to_f(c):
+    f=(((9/5)*c)+32)
+    return f
 
-f = int(input("Enter temperature in farenhiet: "))
-print(f_to_c(f))
+print(f"Temperature in farenhiet is: {round(c_to_f(c),2)}°F")  #round is used to round off the decimal places to the assigned places
